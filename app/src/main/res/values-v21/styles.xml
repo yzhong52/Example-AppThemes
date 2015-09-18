@@ -1,5 +1,25 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AppTheme" parent="android:Theme.Material.Light">
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- your app branding color for the app bar -->
+        <item name="android:colorPrimary">@color/material_blue_500</item>
+        <!-- darker variant for the status bar and contextual app bars -->
+        <item name="android:colorPrimaryDark">@color/material_blue_900</item>
+        <!-- Change the background color of the app bar-->
+        <item name="colorPrimary">@color/material_blue_700</item>
+        <!-- Text color in the action Bar-->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <!-- Text color in the settings dropdown menu-->
+        <item name="android:textColor">@color/material_blue_900</item>
+        <!-- Window background-->
+        <item name="android:windowBackground">@color/material_blue_50</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light">
+        <item name="android:colorPrimary">@color/material_pink_300</item>
+        <item name="android:colorPrimaryDark">@color/material_pink_700</item>
+        <item name="colorPrimary">@color/material_pink_500</item>
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColor">@color/material_pink_700</item>
+        <item name="android:windowBackground">@color/material_pink_50</item>
     </style>
 </resources>
